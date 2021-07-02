@@ -1,0 +1,472 @@
+
+   
+html, body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.logo{
+    background-color: #A9F5F2;
+    padding-left: 580px;
+    padding-right: 580px;
+}
+
+.center{
+    width: 100%;
+    height: 60px;
+    float: left;
+    z-index: 999;
+    position: fixed;
+}
+
+.efeito{
+    border: none;
+    color: #DF013A;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+
+}
+
+.menu{
+    background-color: #ff9999;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.menu ul{
+    margin-top: 0px;
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    height: 50px;
+    
+  }
+
+.menu li{
+    display: inline;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 50px;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu a:hover{
+   color: #DF013A;
+   text-decoration: none;
+}
+
+.menu li.threeline-icon{
+   display: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+   height: 100vh; 
+}
+
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 70px;
+    padding-top: 100px;
+    
+    font-family: 'Dancing Script', cursive;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.main-btn {
+    background-color:#e45252;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-color: #F78181;
+}
+
+.carousel-indicators .active {
+    background-color:#F78181;
+}
+
+.corpo{
+   text-align: center;
+   background-color:#F78181;
+   color: white;
+   padding: 90px;
+   font-size: 22px;
+   font-family: 'Playball', cursive;
+}
+
+.corpo h2{
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cardapio{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 30px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.cardapio h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #DF013A;
+}
+
+.miniatura{
+    width: 200px;
+    height: 240px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-size: contain;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.blackbox{
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+    opacity: 0;
+    padding-top: 110px;
+    
+}
+
+.blackbox:hover{
+    opacity: 0.9;
+}
+
+.blackbox{
+    text-align: center;
+}
+
+.blackbox-text h1 {
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.foto-bolo {
+    width: 350px;
+}
+
+h1{
+    text-align: center;
+}
+
+.olho{
+    width: 1035px;
+    margin: auto;
+}
+
+.conteudo div{
+    display: inline-block;
+}
+
+.imagem{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto{
+    vertical-align: top;
+    text-align: justify;
+    margin-top: 40px;
+   
+}
+
+.computer{
+    width: 960px;
+    margin: auto;
+}
+
+.foto-pote{
+    width: 250px;
+}
+
+.encomendas{
+    background-color: #F78181;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.encomendas h2{
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+}
+
+.encomendas p{
+    font-size: 25px;
+    color: white;
+    font-family: 'Playball', cursive;
+
+}
+
+.text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.first {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 3em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  .bnt:hover, .botao:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  .first{
+    font-family: 'Playball', cursive;
+    border-radius: 3em;
+    border-color: #1abc9c;
+    color: #fff;
+    background-image: -webkit-linear-gradient(left, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-image: linear-gradient(to right, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-position: 0 0;
+    background-size: 100%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .first:hover {
+    background-position: 100px;
+    text-decoration: none;
+    color: white;
+  }
+ 
+  .first{
+      font-size: large;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .back-link{
+      color: #DF013A;
+      text-decoration: none;
+     border-radius: 10%;
+      font-size: 30px;
+  }
+
+  .back-link a:hover{
+      text-decoration: none;
+  }
+
+  .window{
+      text-align: center;
+      padding-top: 80px;
+      color: #DF013A;
+      font-family: 'Playball', cursive;
+  }
+
+    .window h1{
+        font-size: 50px;
+    }
+
+    .window p{
+        font-size: 25px;
+    }
+
+  .formulario{
+      background-color: #d4faf9;
+      border-radius: 3px;
+      padding: 10px;
+      margin: 10px;
+      width: 350px;
+      color:#DF013A;
+      float: left;
+      text-align: right;     
+  }
+
+ .input, textarea{
+      border: 3;  
+      padding: 10px; 
+      width: 300px;
+ }
+
+ .field{
+     border: solid 1px #ccc;
+      font-size: 20px;
+      outline: none;
+      width: 300px;
+ }
+
+ .field:focus{
+     border-color:#DF013A ;
+ }
+
+ .nome{
+     font-size: 18px;
+     padding-top:5px;
+     font-family: 'Playball', cursive;
+ }
+
+ .maps{
+    padding-top: 10px;
+    margin: 50px;
+    
+ }
+
+ .face{
+     padding-left: 250px;
+ }
+
+ .formulario .first{
+     font-size: 10px;
+ }
+
+ .flower{
+     background-color: #F78181;
+     padding-top: 25px;
+     padding-bottom: 15px;
+     text-align: center;
+     color: white;
+ }
+
+
+  @media (max-width:1000px){
+   
+    .menu 
+    
+    
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: 80%; 
+     }
+     
+     #mainSlider .carousel-caption .active{
+        top: 30%;
+    }
+    
+    #mainSlider .carousel-caption h2{
+        font-size: 55px;
+        padding-top: 100px;
+        
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    #mainSlider .carousel-caption p{
+        font-size: 22px;
+        font-weight: 300;
+        margin-bottom: 100px;
+    }
+  
+    .main-btn {
+    background-color:#e45252;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-color: #F78181;
+}
+
+.logo{
+    background-color: #A9F5F2;
+    padding-left: 225px;
+    padding-right: 225px;
+    max-width: 100%;
+}
+
+.menu li{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+}
+
+
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
